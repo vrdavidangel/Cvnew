@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+  <body>
+    <div> 
+      <div>
+        <header>
+                      <div class="head">
+                        <header>
+              <div style="height:10px;">
+                <div class="loginDisplay">
+                    
+                    <span id="lblWelcome">Bienvenido </span>
+                    <a id="lblCOffice" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lblCOffice&quot;, &quot;&quot;, false, &quot;&quot;, &quot;../OfficeSelection.aspx&quot;, false, true))"></a>
+                    <span id="HeadLoginViewLabel" class="bold">David Vélez - Administrador</span>
+                    [
+                    <a id="lnkEnglish" href="javascript:__doPostBack('ctl00$lnkEnglish','')">English</a>]
+                                              
+                                
+                                [ <a id="HeadLoginView_HeadLoginStatus" href="javascript:__doPostBack('ctl00$HeadLoginView$HeadLoginStatus$ctl00','')">Salir</a> ]
+                            
+                    </div>
+              </div>
+              <div class="nav-logo">
+              <div class="logo">
+
+              <h1 style="margin-left: 32px;">
+                  <img id="ucLogoSection_idLogo" src="../public/Logos/TPRLogo.png" style="height:100px;width:217px;">
+
+
+              </h1></div> 
+
+              
+
+              <nav style="margin-right:100px !important;"> 
+
+
+
+              <!--menu dinamico-->
+              <div id="todo">
+
+              <div id="izquierda">
+              <a href="/Default.aspx">
+                <img id="Image3" title="Página Principal" src="../images/Home.png" style="height:15px;padding-left:25px; padding-right:25px;">
+              </a>
+              </div>
+              <div id="derecha">
+              <a href="/Contacts.aspx" style="color: #FFFFFF;"><span id="eeee">Contactos</span></a>
+              </div>
+              <div id="contenido">
+              <div id="menuContainer"><ul id="menu">
+              <li><a>ADMINISTRACIÓN</a><ul>
+              <li><a href="/Account/AccountManagement.aspx">CUENTAS</a></li><li><a href="/Report/Userlist.aspx">LISTADO DE USUARIOS</a></li><li><a>ESTRUCTURA OPERACIONAL</a><ul>
+              <li><a href="/Organizations.aspx">ORGANIZACIÓN</a></li><li><a href="/Company.aspx">COMPAÑÍA</a></li><li><a href="/DatosDemograficos.aspx">CREAR OFICINA NUEVA</a></li>
+              </ul></li><li><a>CITAS</a><ul>
+              <li><a href="/citas/ServiceType.aspx">TIPO DE SERVICIOS</a></li><li><a href="/citas/ServiceTypeByLocation.aspx">TIPO DE SERVICIOS POR OFICINA</a></li>
+              </ul></li><li><a>GRUPOS</a><ul>
+              <li><a href="/MultiOffice.aspx">FILAS</a></li><li><a href="/MultiService.aspx">SERVICIOS</a></li>
+              </ul></li><li><a>ANUNCIOS</a><ul>
+              <li><a href="/Sponsor.aspx">ANUNCIANTES</a></li><li><a href="/SponsorAds.aspx">ANUNCIOS</a></li><li><a href="/AdminOfficeAds.aspx">ANUNCIOS EN OFICINAS</a></li><li><a href="/SponsorTads.aspx%20">ANUNCIOS EN TICKET</a></li><li><a href="/SponsorKPUads.aspx">ANUNCIOS EN POPUP DE KIOSKO</a></li><li><a href="/Report/PopupStatistic.aspx">ESTADÍSTICA DE POPUP DE KIOSKO</a></li><li><a href="/Notifications.aspx">NOTIFICACIONES</a></li>
+              </ul></li><li><a href="/LogoManager.aspx">MANEJADOR DE LOGOS</a></li><li><a href="/AdsAvailable.aspx">ESPACIOS DISPONIBLE</a></li><li><a href="/BreakCatalog.aspx">RECESOS</a></li><li><a href="/AdminOBreaks.aspx">RECESOS EN OFICINAS</a></li><li><a href="/Parameter.aspx">PARAMETROS</a></li><li><a href="/ExceptionList.aspx">LOG DE ERRORES</a></li><li><a href="/HorariosParaEnvioExcepciones.aspx">HORARIOS PARA FRECUENCIA DE ENVÍO  DE EXCEPCIONES</a></li><li><a href="/SecurityProfile.aspx">PERFIL DE SEGURIDAD</a></li><li><a href="/UnlockDb.aspx">DEBLOQUEAR BD</a></li>
+              </ul></li>
+              </ul></div>
+              </div>
+              </div>
+
+  <!--end menu dinamico-->
+
+    <div class="clear"></div></nav>
+    <div class="clear"></div></div>
+
+            </header>
+        </div>
+        </header>
+      </div>
+      <div class="form">
+
+        <form action="" method="GET">
+          <fieldset>
+              <legend>
+                <h2>Directorio</h2>
+              </legend>
+
+              <label for="compañia">Compañia:</label>
+                  <select name="ctl00$MainContent$ddlCompany" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$ddlCompany\',\'\')', 0)" id="MainContent_ddlCompany">
+                    <option selected="selected" value="-1">-No Compañía-</option>
+                    <option value="41">311</option>
+                    <option value="17">AAA</option>
+                    <option value="3">ACAA</option>
+                    <option value="60">Área Local De Desarrollo Labor Mayaguez/Las Marias</option>
+                    <option value="91">Área Local De Desarrollo Laboral Arecibo</option>
+                    <option value="76">Área Local De Desarrollo Laboral Ponce</option>
+                    <option value="64">Área Local De Desarrollo Laboral San German</option>
+                    <option value="72">Área Local de Desarrollo Laboral San Juan</option>
+                    <option value="46">Área Local de Desarrollo Laboral Sureste</option>
+                    <option value="2">Ashford</option>
+                    <option value="49">Atlantic Medical Center</option>
+                    <option value="70">Atrio Seguros</option>
+                    <option value="52">AutoExpreso</option>
+                    <option value="57">Banco Popular</option>
+                    <option value="80">Boston Scientific</option>
+                    <option value="50">Cardio Care</option>
+                    <option value="43">Caribe Federal</option>
+                    <option value="78">CDT Villa Los Santos</option>
+                    <option value="44">Centro de Servicios Integrados</option>
+                    <option value="90">Centro De Vida Internacional</option>
+                    <option value="83">Centro Oftalmológico Metropolitano</option>
+                    <option value="15">Claro</option>
+                    <option value="74">Clinicas Externas</option>
+                    <option value="75">Clinicas Externas</option>
+                    <option value="32">Comisión de Energía de Puerto Rico</option>
+                    <option value="31">Consorcio al Sureste</option>
+                    <option value="51">Cooperativa Gerencoop</option>
+                    <option value="61">Cooperativa Hermanos Unidos</option>
+                    <option value="34">Cooperativa Las Piedras</option>
+                    <option value="84">Cooperativa Parrocoop</option>
+                    <option value="69">Cooperativa San José</option>
+                    <option value="47">Cooperativa San Rafael</option>
+                    <option value="62">COORPORACIÓN DEL FONDO DEL SEGURO DEL ESTADO</option>
+                    <option value="4">Corporación del Fondo del Seguro del Estado</option>
+                    <option value="87">Corporación Servicios Médicos</option>
+                    <option value="5">CRIM</option>
+                    <option value="92">DB Dental Group LLC</option>
+                    <option value="1">Default</option>
+                    <option value="6">Departamento de Educación</option>
+                    <option value="7">Departamento de Estado</option>
+                    <option value="55">Departamento de Hacienda</option>
+                    <option value="13">Departamento de Transportación y Obras Públicas</option>
+                    <option value="82">Departamento Del Trabajo</option>
+                    <option value="40">Departamento Familia</option>
+                    <option value="53">DTOP - Examenes</option>
+                    <option value="36">Escuela de Optometría</option>
+                    <option value="71">First Bank</option>
+                    <option value="79">First Medical</option>
+                    <option value="66">Hecho en PR </option>
+                    <option value="33">Hospital Cardiovascular</option>
+                    <option value="89">Hospital Damas</option>
+                    <option value="88">Hospital Dr. Susoni</option>
+                    <option value="8">Hospital Oncológico</option>
+                    <option value="85">Hospital San Cristóbal</option>
+                    <option value="48">Huertas College</option>
+                    <option value="20">Kelly Services Puerto Rico</option>
+                    <option value="9">Menonita</option>
+                    <option value="10">Metro Pavía</option>
+                    <option value="94">MMM</option>
+                    <option value="45">Morovis Community Health Center</option>
+                    <option value="35">Multinational Insurance</option>
+                    <option value="16">Municipio de Caguas</option>
+                    <option value="37">Municipio de Cataño</option>
+                    <option value="27">Municipio de Cayey</option>
+                    <option value="30">Municipio de Humacao</option>
+                    <option value="11">Municipio de Salinas</option>
+                    <option value="12">Municipio de San Juan</option>
+                    <option value="26">Municipio de Toa Alta</option>
+                    <option value="29">Municipio de Vega Baja</option>
+                    <option value="24">Municipio de Villalba</option>
+                    <option value="65">NeoMed Center Inc.</option>
+                    <option value="59">New Vision</option>
+                    <option value="67">Per Capelli Salon</option>
+                    <option value="39">Policía de Puerto Rico</option>
+                    <option value="38">Pontificia Universidad Católica de Puerto Rico</option>
+                    <option value="77">PR Federal Credit Union</option>
+                    <option value="22">pr.gov</option>
+                    <option value="63">Prymed Hospital</option>
+                    <option value="73">Recintos</option>
+                    <option value="14">Registro Demográfico</option>
+                    <option value="68">Sala de emergencia</option>
+                    <option value="42">San Lucas</option>
+                    <option value="18">Sistema Universitario Ana G. Mendez</option>
+                    <option value="23">SME</option>
+                    <option value="54">Triple-S</option>
+                    <option value="81">Triple-S Vida</option>
+                    <option value="56">TurnosMedia</option>
+                    <option value="25">Universal Insurance</option>
+                    <option value="19">Universidad del Sagrado Corazón</option>
+                    <option value="58">Visión 2000</option>
+                    <option value="21">Vivienda</option>
+                    <option value="86">We Care Center - Gurabo </option>
+                    <option value="93">z</option>
+              
+                  </select>
+
+              <label for="oficina">Oficina:</label>
+                <select name="ctl00$MainContent$ddlOffices" onchange="javascript:setTimeout('__doPostBack(\'ctl00$MainContent$ddlOffices\',\'\')', 0)" id="MainContent_ddlOffices">
+                  <option selected="selected" value="-1">--Seleccione--</option>
+                  <option value="0">-No Oficina-</option>
+                  <option value="offices"></option>
+                
+                </select>
+
+              <label for="posición">Posición:</label>
+                  <select name="posicion" id="posicion" placeholder="--Seleccione--">
+                    <option value="">--Seleccione--</option>
+                    <option value="">Director</option>
+                    <option value="">Supervisor</option>
+                    <option value="">Usuario Cliente</option>
+                    <option value="">Técnico</option>
+                    <option value="">Ventas</option>
+                  </select>
+
+              <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre">
+
+              <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido">
+
+              <label for="correo">Correo:</label>
+                <input type="email" name="correo" autocomplete="email">
+
+              <label for="numero">Número:</label>
+                <input type="tel" name="numero">
+            <div class="botones">
+                
+                <input type="reset" name="ctl00$MainContent$gvListadoNuevo$ctl03$btnRemoveTurn" id="MainContent_gvListadoNuevo_btnRemoveTurn_1" title="Limpiar campos" src=".\Img\DeleteCircle.png">
+                <input type="image" name="ctl00$MainContent$imgSearchBy" id="MainContent_imgSearchBy" title="Buscar" src=".\Img\search_24.png" alt="Buscar">
+                
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
